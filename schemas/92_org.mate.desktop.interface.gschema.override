@@ -1,0 +1,9 @@
+[org.mate.interface]
+menubar-accel='null'
+cursor-blink=false
+gtk-decoration-layout='menu:minimize,maximize,close'
+gtk-theme='Ghomix'
+icon-theme='Vibrancy-NonMono-Dark-Aqua'
+font-name='Sans Bold 10'
+document-font-name='Sans 10'
+

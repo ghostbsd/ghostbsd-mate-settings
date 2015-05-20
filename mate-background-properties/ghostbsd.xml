@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE wallpapers SYSTEM "mate-wp-list.dtd">
+	
+<wallpapers>
+    <wallpaper deleted="false">
+        <name>Blue Wood</name>
+        <filename>/usr/local/share/backgrounds/ghostbsd/BlueWood.jpg</filename>
+        <options>stretched</options>
+    </wallpaper>
+    <wallpaper deleted="false">
+    <name>Clear Desert</name>
+        <filename>/usr/local/share/backgrounds/ghostbsd/ClearDesert.jpg</filename>
+        <options>stretched</options>
+    </wallpaper>
+    <wallpaper deleted="false">
+        <name>Dark Wood</name>
+        <filename>/usr/local/share/backgrounds/ghostbsd/DarkWood.jpg</filename>
+        <options>stretched</options>
+    </wallpaper>
+    <wallpaper deleted="false">
+        <name>Foggy Mountain</name>
+        <filename>/usr/local/share/backgrounds/ghostbsd/FoggyMountain.jpg</filename>
+        <options>stretched</options>
+    </wallpaper>
+    <wallpaper deleted="false">
+        <name>Green Leaf</name>
+        <filename>/usr/local/share/backgrounds/ghostbsd/GreenLeaf.jpg</filename>
+        <options>stretched</options>
+    </wallpaper>
+    <wallpaper deleted="false">
+        <name>Grey Desert</name>
+        <filename>/usr/local/share/backgrounds/ghostbsd/GreyDesert.jpg</filename>
+        <options>stretched</options>
+    </wallpaper>
+    <wallpaper deleted="false">
+        <name>Ice Flake</name>
+        <filename>/usr/local/share/backgrounds/ghostbsd/IceFlake.jpg</filename>
+        <options>stretched</options>
+    </wallpaper>
+    <wallpaper deleted="false">
+        <name>Man In Desert</name>
+        <filename>/usr/local/share/backgrounds/ghostbsd/ManInDesert.jpg</filename>
+        <options>stretched</options>
+    </wallpaper>
+    <wallpaper deleted="false">
+        <name>Meadow</name>
+        <filename>/usr/local/share/backgrounds/ghostbsd/Meadow.jpg</filename>
+        <options>stretched</options>
+    </wallpaper>
+    <wallpaper deleted="false">
+        <name>Pond</name>
+        <filename>/usr/local/share/backgrounds/ghostbsd/Pond.jpg</filename>
+        <options>stretched</options>
+    </wallpaper>
+    <wallpaper deleted="false">
+        <name>Tempest</name>
+        <filename>/usr/local/share/backgrounds/ghostbsd/Tempset.jpg</filename>
+        <options>stretched</options>
+    </wallpaper>
+    <wallpaper deleted="false">
+        <name>Winter</name>
+        <filename>/usr/local/share/backgrounds/ghostbsd/Winter.jpg</filename>
+        <options>stretched</options>
+    </wallpaper>
+</wallpapers>

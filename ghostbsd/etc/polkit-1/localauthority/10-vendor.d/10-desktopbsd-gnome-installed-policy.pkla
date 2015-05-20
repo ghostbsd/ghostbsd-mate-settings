@@ -1,0 +1,4 @@
+[Laptop CPU Frequency scaling]
+Identity=unix-group:users
+Action=org.gnome.cpufreqselector
+ResultActive=yes

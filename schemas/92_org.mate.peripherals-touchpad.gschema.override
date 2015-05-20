@@ -1,0 +1,3 @@
+[org.mate.peripherals-touchpad]
+tap-to-click=true
+disable-while-typing=true

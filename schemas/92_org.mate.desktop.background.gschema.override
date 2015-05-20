@@ -1,0 +1,4 @@
+[org.mate.background]
+picture-filename='/usr/local/share/backgrounds/ghostbsd/wallpaper_default.jpg'
+picture-options='stretched'
+show-desktop-icons=true
