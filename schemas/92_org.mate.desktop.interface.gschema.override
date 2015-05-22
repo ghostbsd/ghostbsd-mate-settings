@@ -3,7 +3,7 @@ menubar-accel='null'
 cursor-blink=false
 gtk-decoration-layout='menu:minimize,maximize,close'
 gtk-theme='Ghomix'
-icon-theme='Vibrancy-Dark-Aqua'
+icon-theme='Vibrancy-Aqua-Dark'
 font-name='Sans Bold 10'
 document-font-name='Sans 10'
 
