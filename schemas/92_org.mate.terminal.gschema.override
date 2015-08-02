@@ -1,0 +1,7 @@
+[org.mate.terminal.profiles]
+background-color='#003756'
+foreground-color='#FFFFFF'
+
+[org.mate.terminal.background-type]
+background-type='transparent'
+background-darkness=0.8
