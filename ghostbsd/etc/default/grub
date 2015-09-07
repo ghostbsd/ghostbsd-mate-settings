@@ -1,5 +1,3 @@
 GRUB_THEME=/boot/grub/themes/ghostbsd/theme.txt
 GRUB_FONT=/boot/grub/pcbsdfont.pf2
-GRUB_HIDDEN_TIMEOUT=2
-GRUB_HIDDEN_TIMEOUT_QUIET=true
 GRUB_DISTRIBUTOR="GhostBSD 10.1 (mate)"
