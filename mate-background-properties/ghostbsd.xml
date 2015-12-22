@@ -3,63 +3,63 @@
 	
 <wallpapers>
     <wallpaper deleted="false">
-        <name>Blue Wood</name>
-        <filename>/usr/local/share/backgrounds/ghostbsd/BlueWood.jpg</filename>
+        <name>Autumn Wood</name>
+        <filename>/usr/local/share/backgrounds/ghostbsd/Autumn_Wood.jpg</filename>
         <options>stretched</options>
     </wallpaper>
     <wallpaper deleted="false">
-    <name>Clear Desert</name>
-        <filename>/usr/local/share/backgrounds/ghostbsd/ClearDesert.jpg</filename>
+    <name>Fire Sunset</name>
+        <filename>/usr/local/share/backgrounds/ghostbsd/Fire_Sunset.jpg</filename>
         <options>stretched</options>
     </wallpaper>
     <wallpaper deleted="false">
-        <name>Dark Wood</name>
-        <filename>/usr/local/share/backgrounds/ghostbsd/DarkWood.jpg</filename>
+        <name>Frosted Leaf</name>
+        <filename>/usr/local/share/backgrounds/ghostbsd/Frosted_Leaf.jpg</filename>
         <options>stretched</options>
     </wallpaper>
     <wallpaper deleted="false">
-        <name>Foggy Mountain</name>
-        <filename>/usr/local/share/backgrounds/ghostbsd/FoggyMountain.jpg</filename>
+        <name>Grjotagja Cave</name>
+        <filename>/usr/local/share/backgrounds/ghostbsd/Grjotagja_Cave.jpg</filename>
         <options>stretched</options>
     </wallpaper>
     <wallpaper deleted="false">
-        <name>Green Leaf</name>
-        <filename>/usr/local/share/backgrounds/ghostbsd/GreenLeaf.jpg</filename>
+        <name>Magnificent Lanscape</name>
+        <filename>/usr/local/share/backgrounds/ghostbsd/Magnificent_Lanscape.jpg</filename>
         <options>stretched</options>
     </wallpaper>
     <wallpaper deleted="false">
-        <name>Grey Desert</name>
-        <filename>/usr/local/share/backgrounds/ghostbsd/GreyDesert.jpg</filename>
+        <name>Night Swimming</name>
+        <filename>/usr/local/share/backgrounds/ghostbsd/Night_swimming.jpg</filename>
         <options>stretched</options>
     </wallpaper>
     <wallpaper deleted="false">
-        <name>Ice Flake</name>
-        <filename>/usr/local/share/backgrounds/ghostbsd/IceFlake.jpg</filename>
+        <name>Scenery Over Sea With The Sun</name>
+        <filename>/usr/local/share/backgrounds/ghostbsd/Scenery_over_sea_with_the_setting_sun.jpg</filename>
         <options>stretched</options>
     </wallpaper>
     <wallpaper deleted="false">
-        <name>Man In Desert</name>
-        <filename>/usr/local/share/backgrounds/ghostbsd/ManInDesert.jpg</filename>
+        <name>Street Lights Twilight Sky</name>
+        <filename>/usr/local/share/backgrounds/ghostbsd/Street_Lights_Twilight_Sky.jpg</filename>
         <options>stretched</options>
     </wallpaper>
     <wallpaper deleted="false">
-        <name>Meadow</name>
-        <filename>/usr/local/share/backgrounds/ghostbsd/Meadow.jpg</filename>
+        <name>Sunrise at Lake Tahoe</name>
+        <filename>/usr/local/share/backgrounds/ghostbsd/Sunrise_at_Lake_Tahoe.jpg</filename>
         <options>stretched</options>
     </wallpaper>
     <wallpaper deleted="false">
-        <name>Pond</name>
-        <filename>/usr/local/share/backgrounds/ghostbsd/Pond.jpg</filename>
+        <name>Sunset Reflection Ocean</name>
+        <filename>/usr/local/share/backgrounds/ghostbsd/Sunset_Reflection_Ocean.jpg</filename>
         <options>stretched</options>
     </wallpaper>
     <wallpaper deleted="false">
-        <name>Tempest</name>
-        <filename>/usr/local/share/backgrounds/ghostbsd/Tempset.jpg</filename>
+        <name>Super Sunset in Princes Pier</name>
+        <filename>/usr/local/share/backgrounds/ghostbsd/Super_sunset_in_Princes_Pier.jpg</filename>
         <options>stretched</options>
     </wallpaper>
     <wallpaper deleted="false">
-        <name>Winter</name>
-        <filename>/usr/local/share/backgrounds/ghostbsd/Winter.jpg</filename>
+        <name>Yellowstone Under Canvas</name>
+        <filename>/usr/local/share/backgrounds/ghostbsd/Yellowstone_Under_Canvas.jpg</filename>
         <options>stretched</options>
     </wallpaper>
 </wallpapers>
