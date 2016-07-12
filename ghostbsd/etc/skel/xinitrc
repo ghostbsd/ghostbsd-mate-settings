@@ -1,1 +1,1 @@
-exec mate-session
+exec $1
