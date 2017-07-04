@@ -2,8 +2,8 @@
 menubar-accel='null'
 cursor-blink=false
 gtk-decoration-layout='menu:minimize,maximize,close'
-gtk-theme='Ghomix'
-icon-theme='Vibrancy-Aqua-Dark'
-font-name='Luxi Sans Bold 12'
-document-font-name='Luxi Sans 12'
-monospace-font-name='Luxi Mono 11'
+gtk-theme='Numix-SX-Dark'
+icon-theme='Vivacious-Colors-Dark'
+font-name='Montserrat Alternates 12'
+document-font-name='Montserrat Alternates 12'
+monospace-font-name='Monospace 12'
