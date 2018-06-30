@@ -2,8 +2,8 @@
 menubar-accel='null'
 cursor-blink=false
 gtk-decoration-layout='menu:minimize,maximize,close'
-gtk-theme='Numix-SX-Dark'
+gtk-theme='Vimix'
 icon-theme='Vivacious-Colors-Dark'
-font-name='Montserrat Alternates 12'
-document-font-name='Montserrat Alternates 12'
-monospace-font-name='Monospace 12'
+font-name='Droid Sans Bold 12'
+document-font-name='Droid Sans Bold 12'
+monospace-font-name='Droid Sans Mono 12'
