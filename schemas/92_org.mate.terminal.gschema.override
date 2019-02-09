@@ -1,5 +1,7 @@
-[org.mate.terminal.profiles.default]
-background-color='#1C1C1C'
-foreground-color='#FFFFFF'
+[org.mate.terminal.profile]
+background-color='#272822'
+foreground-color='#f8f8f2'
+palette='#272822:#f92672:#a6e22e:#f4bf75:#66d9ef:#ae81ff:#a1efe4:#f8f8f2:#75715e:#f92672:#a6e22e:#f4bf75:#66d9ef:#ae81ff:#a1efe4:#f9f8f5'
 background-type='transparent'
-background-darkness=0.9
+background-darkness=0.95
+use-theme-colors=false
