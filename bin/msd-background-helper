@@ -12,12 +12,6 @@ function setuserbackground(){
 
 	dbus-send --system --print-reply \
 	--dest=org.freedesktop.Accounts \
-	--type=method_call \
-	/org/freedesktop/Accounts/User`id -u` \
-	org.freedesktop.Accounts.User.SetBackgroundFile string:"$USERBACKGROUND"
-
-	dbus-send --system --print-reply \
-	--dest=org.freedesktop.Accounts \
 	/org/freedesktop/Accounts/User`id -u` \
 	org.freedesktop.DBus.Properties.Set \
 		string:org.freedesktop.DisplayManager.AccountsService \
