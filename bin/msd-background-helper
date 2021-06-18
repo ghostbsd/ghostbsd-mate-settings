@@ -5,7 +5,7 @@
 # BackgroundFile
 # [User]
 # Background
-# in /var/lib/AccountsService/users/$USER
+# in /var/db/AccountsService/users/$USER
 
 function setuserbackground(){
 	export USERBACKGROUND=`gsettings get org.mate.background picture-filename | sed -e "s/^'//" -e "s/'$//"`
