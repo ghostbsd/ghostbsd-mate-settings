@@ -1,2 +1,5 @@
 [org.mate.session]
 default-session=['mate-settings-daemon']
+
+[org.mate.session.required-components]
+dock='plank'
