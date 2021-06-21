@@ -1,5 +1,6 @@
 [org.mate.session]
 default-session=['mate-settings-daemon']
+required-components-list=['windowmanager', 'panel', 'filemanager']
 
 [org.mate.session.required-components]
 dock='plank'
