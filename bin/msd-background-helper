@@ -8,11 +8,19 @@
 # in /var/db/AccountsService/users/$USER
 
 function setuserbackground(){
-	export USERBACKGROUND=`gsettings get org.mate.background picture-filename | sed -e "s/^'//" -e "s/'$//"`
+	USERBACKGROUND=$(gsettings get org.mate.background picture-filename | sed -e "s/^'//" -e "s/'$//")
+
+	if [[ "$USERBACKGROUND" == *"home"* ]]; then
+		IMAGE_NAME=$(echo "$USERBACKGROUND" | rev | cut -d "/" -f1 | rev)
+		rm -f /var/lib/lightdm-data/"$(id -unr)"/*.png \
+		/var/lib/lightdm-data/"$(id -unr)"/*.jpg
+		cp "$USERBACKGROUND" "/var/lib/lightdm-data/$(id -unr)/"
+		USERBACKGROUND="/var/lib/lightdm-data/$(id -unr)/$IMAGE_NAME"
+	fi
 
 	dbus-send --system --print-reply \
 	--dest=org.freedesktop.Accounts \
-	/org/freedesktop/Accounts/User`id -u` \
+	"/org/freedesktop/Accounts/User$(id -u)" \
 	org.freedesktop.DBus.Properties.Set \
 		string:org.freedesktop.DisplayManager.AccountsService \
 		string:BackgroundFile \
