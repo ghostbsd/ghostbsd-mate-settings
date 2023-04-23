@@ -33,4 +33,3 @@ dbus-monitor --profile "type='signal',interface='ca.desrt.dconf.Writer',path='/c
 while read -r line; do
 	setuserbackground
 done
-
