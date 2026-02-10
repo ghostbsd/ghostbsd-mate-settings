@@ -2,8 +2,8 @@
 menubar-accel='null'
 cursor-blink=false
 gtk-decoration-layout='menu:minimize,maximize,close'
-gtk-theme='Vimix'
-icon-theme='Qogir'
+gtk-theme='Vimix-dark-doder'
+icon-theme='Qogir-Dark'
 font-name='Droid Sans Bold 10'
 document-font-name='Droid Sans Bold 10'
 monospace-font-name='Droid Sans Mono 10'

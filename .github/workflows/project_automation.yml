@@ -26,3 +26,20 @@ jobs:
           project_id: 4
           resource_node_id: ${{ github.event.pull_request.node_id }}
           status_value: ${{ env.in_review }}
+
+  auto_assign_pr_creator:
+    name: Auto-assign PR creator
+    runs-on: ubuntu-latest
+    if: github.event_name == 'pull_request_target' && github.event.action == 'opened'
+    steps:
+      - name: Assign PR to creator
+        uses: actions/github-script@v7
+        with:
+          github-token: ${{ secrets.MY_GITHUB_TOKEN }}
+          script: |
+            await github.rest.issues.addAssignees({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: context.issue.number,
+              assignees: [context.payload.pull_request.user.login]
+            });
