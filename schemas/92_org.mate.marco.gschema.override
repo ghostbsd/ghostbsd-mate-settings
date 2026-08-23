@@ -1,3 +1,18 @@
 [org.mate.Marco.general]
 theme='Vimix-dark-doder'
 titlebar-font='Droid Sans Bold 10'
+
+[org.mate.Marco.global-keybindings]
+run-command-1='<Control><Alt>t'
+
+[org.mate.Marco.keybinding-commands]
+command-1='mate-terminal'
+
+[org.mate.Marco.window-keybindings]
+tile-to-side-w='<Mod4>Left'
+tile-to-side-e='<Mod4>Right'
+tile-to-corner-nw='<Shift><Mod4>Left'
+tile-to-corner-ne='<Shift><Mod4>Right'
+tile-to-corner-sw='<Primary><Mod4>Left'
+tile-to-corner-se='<Primary><Mod4>Right'
+maximize='<Mod4>Up'
