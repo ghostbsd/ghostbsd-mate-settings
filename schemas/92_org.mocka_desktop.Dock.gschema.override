@@ -1,0 +1,2 @@
+[org.mocka_desktop.Dock]
+pinned-apps=['caja-browser.desktop', 'firefox.desktop', 'mate-terminal.desktop', 'matecc.desktop', 'software-station.desktop']
