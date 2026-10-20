@@ -27,19 +27,15 @@ jobs:
           resource_node_id: ${{ github.event.pull_request.node_id }}
           status_value: ${{ env.in_review }}
 
-  auto_assign_pr_creator:
-    name: Auto-assign PR creator
+  pr_assign_author:
+    name: pr_assign_author
     runs-on: ubuntu-latest
-    if: github.event_name == 'pull_request_target' && github.event.action == 'opened'
+    # Bots like dependabot can't be assignees; skip them
+    if: github.event_name == 'pull_request_target' && github.event.action == 'opened' && github.event.pull_request.user.type != 'Bot'
     steps:
-      - name: Assign PR to creator
-        uses: actions/github-script@v7
-        with:
-          github-token: ${{ secrets.MY_GITHUB_TOKEN }}
-          script: |
-            await github.rest.issues.addAssignees({
-              owner: context.repo.owner,
-              repo: context.repo.repo,
-              issue_number: context.issue.number,
-              assignees: [context.payload.pull_request.user.login]
-            });
+      - name: Assign PR to its author
+        run: gh pr edit "$PR_URL" --add-assignee "$AUTHOR"
+        env:
+          GH_TOKEN: ${{ secrets.MY_GITHUB_TOKEN }}
+          PR_URL: ${{ github.event.pull_request.html_url }}
+          AUTHOR: ${{ github.event.pull_request.user.login }}
